@@ -14,8 +14,7 @@
 
 <table>
 <tr>
-<td><img src="nominjin-ascii.svg" width="100%"/></td>
-<td><img src="info-card.svg" width="100%"/></td>
+<td><img src="whoami-card(1).svg" width="100%"/></td>
 </tr>
 </table>
 
