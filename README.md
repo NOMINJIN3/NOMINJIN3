@@ -66,7 +66,7 @@
 
 <p align="center">
   <img
-    src="https://github.com/NominjinNomio/NominjinNomio/blob/main/preview-sample.svg"
+    src="https://github.com/NominjinNomio/NominjinNomio/blob/main/languages%20.svg"
     alt="GitHub Jet Heatmap"
     width="100%"
   />
