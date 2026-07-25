@@ -46,10 +46,10 @@
     alt="GitHub Streak Stats" 
   />
 </div>
-
+<br>
 <div align="center">
  <p align="center">
-  <img height="200"
+  <img height="220"
     src="https://github.com/NominjinNomio/NominjinNomio/blob/main/languages%20.svg"
     alt="GitHub Jet Heatmap"
   />
