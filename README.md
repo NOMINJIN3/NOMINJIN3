@@ -47,12 +47,14 @@
   />
 </div>
 
+![lanuages](languages.svg)
 <div align="center">
-  <img 
-    height="195" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=NominjinNomio&theme=github_dark&hide_border=false&border_color=30363D&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" 
-    alt="Most Used Languages" 
+ <p align="center">
+  <img height="195%"
+    src="https://github.com/NominjinNomio/NominjinNomio/blob/main/languages%20.svg"
+    alt="GitHub Jet Heatmap"
   />
+</p>
 </div>
 
 <br/>
@@ -64,13 +66,9 @@
   <img height="195%" src="https://github-readme-activity-graph.vercel.app/graph?username=NominjinNomio&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb"/>
 </div>
 
-<p align="center">
-  <img
-    src="https://github.com/NominjinNomio/NominjinNomio/blob/main/languages%20.svg"
-    alt="GitHub Jet Heatmap"
-    width="100%"
-  />
-</p>
+<div align="center">
+  <img height="195%" src="https://github.com/NominjinNomio/NominjinNomio/blob/main/preview-sample.svg"/>
+</div>
 
 ---
 
