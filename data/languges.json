@@ -1,0 +1,31 @@
+{
+  "title": "Most Used Languages",
+  "totalPercentage": 100.00,
+  "languages": [
+    {
+      "name": "JavaScript",
+      "percentage": 53.01,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "HTML",
+      "percentage": 29.17,
+      "color": "#e34c26"
+    },
+    {
+      "name": "CSS",
+      "percentage": 11.79,
+      "color": "#563d7c"
+    },
+    {
+      "name": "Python",
+      "percentage": 4.34,
+      "color": "#3572A5"
+    },
+    {
+      "name": "TypeScript",
+      "percentage": 1.75,
+      "color": "#3178c6"
+    }
+  ]
+}
