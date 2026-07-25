@@ -49,7 +49,7 @@
 
 <div align="center">
  <p align="center">
-  <img height="195"
+  <img height="200"
     src="https://github.com/NominjinNomio/NominjinNomio/blob/main/languages%20.svg"
     alt="GitHub Jet Heatmap"
   />
