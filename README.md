@@ -21,7 +21,7 @@
 
 <h3><code>nominjin@github ~ $ ./links.sh</code></h3>
 
-<p><b><h4>Information Technology Student · Agentic Tools Developer · Cyber Security</h4></b></p>
+<p><b><h5>Information Technology Student · Agentic Tools Developer · Cyber Security</h5></b></p>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-nominjin.io-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://www.nominjin.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nominjin/)
