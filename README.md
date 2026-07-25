@@ -4,7 +4,7 @@
 
 <br/>
 
-![contributions](contrib-heatmap.svg)
+![contributions](contributions.svg)
 
 <br/><br/>
 
