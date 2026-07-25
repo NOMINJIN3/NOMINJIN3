@@ -8,7 +8,7 @@
 
 <br/><br/>
 
-<code>nominjin@github ~ $ whoami</code>
+<h3><code>nominjin@github ~ $ whoami</code></h3>
 
 <table>
 <tr>
@@ -21,7 +21,7 @@
 
 <h3><code>nominjin@github ~ $ ./links.sh</code></h3>
 
-<p><b>Information Technology · AI Builder · Instructor</b></p>
+<p><b>Information Technology Student · Agentic Tools Developer · Cyber Security</b></p>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-nominjin.io-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://www.nominjin.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nominjin/)
