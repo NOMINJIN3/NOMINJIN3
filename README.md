@@ -2,7 +2,7 @@
 
 <h3><code>nominjin@github ~ $ ./contributions.sh</code></h3>
 
-<br/><>
+<br/>
 
 ![contributions](contributions.svg)
 
