@@ -4,6 +4,7 @@
 
 <br/>
 
+---
 ![contributions](contributions.svg)
 
 <br/><br/>
@@ -19,6 +20,7 @@
 <br>
 <br>
 
+---
 <h3><code>nominjin@github ~ $ ./links.sh</code></h3>
 
 <p><b><h5>Information Technology Student · Agentic Tools Developer · Cyber Security</h5></b></p>
@@ -33,10 +35,12 @@
 
 <br>
 
+
+---
 <h3><code>GitHub Analytics</code></h3>
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Amartuvshins0404&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&ring_color=1f6feb&include_all_commits=true&count_private=true"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=NominjinNomio&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&ring_color=1f6feb&include_all_commits=true&count_private=true"/>
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=NominjinNomio&theme=github-dark-blue&hide_border=true&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E"/>
 </div>
 
