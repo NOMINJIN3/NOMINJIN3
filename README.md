@@ -40,8 +40,11 @@
 <h3><code>GitHub Analytics</code></h3>
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=NominjinNomio&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&ring_color=1f6feb&include_all_commits=true&count_private=true"/>
-  <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=NominjinNomio&theme=github-dark-blue&hide_border=true&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E"/>
+  <img 
+    height="195" 
+    src="https://github-readme-streak-stats.herokuapp.com?user=NominjinTsogtbayar&theme=github-dark-blue&hide_border=false&border=1F2937&background=090D14&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&sideLabels=9CA3AF&dates=6B7280&sideNumbers=3B82F6&currStreakNum=FFFFFF" 
+    alt="GitHub Streak Stats" 
+  />
 </div>
 
 <br/>
