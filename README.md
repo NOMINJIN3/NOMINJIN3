@@ -47,6 +47,14 @@
   />
 </div>
 
+<div align="center">
+  <img 
+    height="195" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=NominjinNomio&theme=github_dark&hide_border=false&border_color=30363D&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8" 
+    alt="Most Used Languages" 
+  />
+</div>
+
 <br/>
 
 ---
