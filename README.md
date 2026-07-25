@@ -58,5 +58,14 @@
 
 ---
 
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=NominjinNomio&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
+
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer"/>
+
+</div>
 
 </div>
