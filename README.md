@@ -4,7 +4,7 @@
 
 <br/>
 
----
+
 ![contributions](contributions.svg)
 
 <br/><br/>
@@ -20,7 +20,7 @@
 <br>
 <br>
 
----
+
 <h3><code>nominjin@github ~ $ ./links.sh</code></h3>
 
 <p><b><h5>Information Technology Student · Agentic Tools Developer · Cyber Security</h5></b></p>
