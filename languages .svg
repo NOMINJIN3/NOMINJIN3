@@ -112,7 +112,7 @@
     </g>
     <!-- TypeScript -->
     <g transform="translate(0, 32)">
-      <circle cx="6" cy="6" r="5" fill="#3178c6"/>
+      <circle cx="6" cy="6" r="5" fill="#022658"/>
       <text x="20" y="10" class="lang-name">TypeScript <tspan class="lang-percent">1.75%</tspan></text>
     </g>
   </g>
