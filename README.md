@@ -33,5 +33,20 @@
 
 <br>
 
+<h3><code>GitHub Analytics</code></h3>
+
+<div align="center">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Amartuvshins0404&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&ring_color=1f6feb&include_all_commits=true&count_private=true"/>
+  <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=NominjinNomio&theme=github-dark-blue&hide_border=true&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Amartuvshins0404&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb"/>
+</div>
+
+---
+
 
 </div>
