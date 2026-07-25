@@ -42,7 +42,7 @@
 <div align="center">
   <img 
     height="195" 
-    src="https://github-readme-streak-stats.herokuapp.com?user=NominjinTsogtbayar&theme=github-dark-blue&hide_border=false&border=1F2937&background=090D14&ring=3B82F6&fire=3B82F6&currStreakLabel=3B82F6&sideLabels=9CA3AF&dates=6B7280&sideNumbers=3B82F6&currStreakNum=FFFFFF" 
+    src="https://github-readme-streak-stats.herokuapp.com?user=NominjinNomio&theme=github-dark-blue&hide_border=false&border=21262D&background=090D16&stroke=21262D&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&sideNums=38BDF8&currStreakLabel=38BDF8&sideLabels=8B949E&dates=6E7681" 
     alt="GitHub Streak Stats" 
   />
 </div>
