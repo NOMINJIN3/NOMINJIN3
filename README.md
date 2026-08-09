@@ -42,7 +42,7 @@
 <div align="center">
   <img 
     height="195" 
-    src="https://github-readme-streak-stats.herokuapp.com?user=NominjinNomio&theme=github-dark-blue&hide_border=false&border=21262D&background=090D16&stroke=21262D&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&sideNums=38BDF8&currStreakLabel=38BDF8&sideLabels=8B949E&dates=6E7681" 
+    src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue&hide_border=false&border=21262D&background=090D16&stroke=21262D&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&sideNums=38BDF8&currStreakLabel=38BDF8&sideLabels=8B949E&dates=6E7681" 
     alt="GitHub Streak Stats" 
   />
 </div>
@@ -62,18 +62,18 @@
 <h3><code>Contribution Activity</code></h3>
 
 <div align="center">
-  <img height="195%" src="https://github-readme-activity-graph.vercel.app/graph?username=NominjinNomio&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb"/>
+  <img height="195%" src="https://github-readme-activity-graph.vercel.app/graph?username=NOMINJIN3&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb"/>
 </div>
 
 <div align="center">
-  <img height="195%" src="https://github.com/NominjinNomio/NominjinNomio/blob/main/preview-sample.svg"/>
+  <img height="195%" src="https://github.com/NOMINJIN3/NOMINJIN3/blob/main/preview-sample.svg"/>
 </div>
 
 ---
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=NominjinNomio&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
+<img src="https://komarev.com/ghpvc/?username=NOMINJIN3&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
 
 <br/><br/>
 
