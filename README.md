@@ -48,7 +48,6 @@ Contact and social links will appear here.
     <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon&mode=light" />
     <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon&mode=light" />
     <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon&mode=light" />
-
     <img src="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon" alt="NOMINJIN3 social section" />
   </picture>
 </p>
