@@ -1,84 +1,57 @@
-<div align="center">
+# NOMINJIN3
 
-<h3><code>nominjin@github ~ $ ./contributions.sh</code></h3>
+> Maintainer credibility and contributor clarity.
 
-<br/>
+**Theme:** Neon · **Style:** Detailed · **Agent:** Full-Stack Engineer
 
-
-![contributions](contributions.svg)
-
-<br/><br/>
-
-<h3><code>nominjin@github ~ $ whoami</code></h3>
-
-<table>
-<tr>
-<td><img src="whoami-card(1).svg" width="100%"/></td>
-</tr>
-</table>
-
-<br>
-<br>
-
-
-<h3><code>nominjin@github ~ $ ./links.sh</code></h3>
-
-<p><b><h5>Information Technology Student · Agentic Tools Developer · Cyber Security</h5></b></p>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-nominjin.io-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://www.nominjin.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nominjin/)
-[![X](https://img.shields.io/badge/@Nominjin1433-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/nomin1433)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nomin3_jin/)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/c.nominzin.309905)
-[![GitHub](https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NominjinNomio)
-
-
-<br>
-
-
----
-<h3><code>GitHub Analytics</code></h3>
-
-<div align="center">
-  <img 
-    height="195" 
-    src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue&hide_border=false&border=21262D&background=090D16&stroke=21262D&ring=38BDF8&fire=38BDF8&currStreakNum=FFFFFF&sideNums=38BDF8&currStreakLabel=38BDF8&sideLabels=8B949E&dates=6E7681" 
-    alt="GitHub Streak Stats" 
-  />
-</div>
-<br>
-<div align="center">
- <p align="center">
-  <img height="220"
-    src="https://github.com/NominjinNomio/NominjinNomio/blob/main/languages%20.svg"
-    alt="GitHub Jet Heatmap"
-  />
+## Header
+> Editing this section in the inspector.
+Hi, I'm **NOMINJIN3**. This README is tuned for **open source** with a Neon visual system.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=NOMINJIN3&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=NOMINJIN3&theme=neon" alt="NOMINJIN3 hero section" />
+  </picture>
 </p>
-</div>
+## About Me
+Shapes the short profile story and positioning.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=NOMINJIN3&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/about?username=NOMINJIN3&theme=neon" alt="NOMINJIN3 about section" />
+  </picture>
+</p>
+## Skills
+Selected stack and skill badges will be generated from the GitHub profile and README strategy.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=NOMINJIN3&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stack?username=NOMINJIN3&theme=neon" alt="NOMINJIN3 stack section" />
+  </picture>
+</p>
+## GitHub Stats
+GitSkins stat widgets will use the **Neon** theme.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=NOMINJIN3&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stats?username=NOMINJIN3&theme=neon" alt="NOMINJIN3 stats section" />
+  </picture>
+</p>
+## Projects
+Highlights repositories as proof of work.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=NOMINJIN3&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/projects?username=NOMINJIN3&theme=neon" alt="NOMINJIN3 projects section" />
+  </picture>
+</p>
+## Connect
+Contact and social links will appear here.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon&mode=light" />
+    <img src="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon" alt="NOMINJIN3 social section" />
+  </picture>
+</p>
 
-<br/>
-
----
-<h3><code>Contribution Activity</code></h3>
-
-<div align="center">
-  <img height="195%" src="https://github-readme-activity-graph.vercel.app/graph?username=NOMINJIN3&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb"/>
-</div>
-
-<div align="center">
-  <img height="195%" src="https://github.com/NOMINJIN3/NOMINJIN3/blob/main/preview-sample.svg"/>
-</div>
-
----
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=NOMINJIN3&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
-
-<br/><br/>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer"/>
-
-</div>
-
-</div>
+<!-- Sections: Header, About Me, Skills, GitHub Stats, Projects, Connect -->
