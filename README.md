@@ -42,7 +42,7 @@
 Contact and social links will appear here.
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon&mode=light" />
+    <source media="(prefers-color-scheme: light)" src="https://github.com/NOMINJIN3/&theme=neon&mode=light" />
     <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon&mode=light" />
     <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon&mode=light" />
     <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=NOMINJIN3&theme=neon&mode=light" />
