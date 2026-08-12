@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100" viewBox="0 0 300 100" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-<rect width="300" height="100" rx="10" fill="#0d1117" stroke="#30363d"/>
-<text x="20" y="35" fill="#ffa657" font-size="13" font-weight="700">Current streak</text>
-<text x="220" y="35" fill="#c9d1d9" font-size="13" text-anchor="end">0 days</text>
-<text x="20" y="60" fill="#ffa657" font-size="13" font-weight="700">Longest streak</text>
-<text x="220" y="60" fill="#c9d1d9" font-size="13" text-anchor="end">2 days</text>
-<text x="20" y="85" fill="#ffa657" font-size="13" font-weight="700">Total</text>
-<text x="220" y="85" fill="#c9d1d9" font-size="13" text-anchor="end">176</text>
-</svg>
