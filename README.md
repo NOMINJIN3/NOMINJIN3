@@ -52,13 +52,13 @@
 <h3><code>Github Graph</code></h3>
  <div align="center">
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue&hide_border=true&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E"/>
-<img height="180" src="https://github.com/NOMINJIN3/NOMINJIN3/blob/main/preview-sample.svg"/>
 </div>
 
 <br/>
 
 <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NOMINJIN3&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb"/>
+  <img height="180" src="https://github.com/NOMINJIN3/NOMINJIN3/blob/main/preview-sample.svg"/>
 </div>
 
 
