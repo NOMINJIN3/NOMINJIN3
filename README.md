@@ -7,8 +7,14 @@
      wordmark: python scripts/make_wordmark_svg.py --mode rock
      how the wordmark is built: docs/3d-ascii-wordmark.md -->
 
-<h3><code>nominjin@github ~ $ whoami</code></h3>
+<h3><code>nominjin@github ~ $ ./contributions.sh</code></h3>
 
+<img src="./contrib-heatmap.svg" width="860" alt="Nomi's GitHub contribution graph — auto-refreshed daily" />
+
+<br>
+
+
+<h3><code>nominjin@github ~ $ whoami</code></h3>
 <table>
 <tr>
 <td valign="top"><img src="./nominjin-ascii.svg" width="370" alt="Nominjin — ASCII portrait" /></td>
@@ -22,11 +28,6 @@
 <!-- animated contribution graph: real data, boxes reveal cell by cell
      (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-<h3><code>nominjin@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Nomi's GitHub contribution graph — auto-refreshed daily" />
-
-<br>
 <br>
 
 <h3><code>nominjin@github ~ $ ./links.sh</code></h3>
@@ -58,6 +59,7 @@
 <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NOMINJIN3&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb"/>
 </div>
+
 
 ---
 <div align="center">
