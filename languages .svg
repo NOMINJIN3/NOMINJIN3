@@ -59,7 +59,7 @@
 
   <!-- Title & Username Header -->
   <text x="30" y="38" class="title-text">Most Used Languages</text>
-  <text x="450" y="38" class="subtitle" text-anchor="end">@NominjinNomio</text>
+  <text x="450" y="38" class="subtitle" text-anchor="end">@NOMINJIN3</text>
 
   <!-- Progress Bar Container -->
   <g transform="translate(30, 56)">
