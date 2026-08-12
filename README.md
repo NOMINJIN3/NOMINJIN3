@@ -12,7 +12,7 @@
 <img src="./contrib-heatmap.svg" width="860" alt="Nomi's GitHub contribution graph — auto-refreshed daily" />
 
 <br>
-
+<br>
 
 <h3><code>nominjin@github ~ $ whoami</code></h3>
 <table>
@@ -38,7 +38,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-nominjin__nominjin3-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nomin3_jin)
 [![Live Terminal](https://img.shields.io/badge/⚡_Live_Terminal-nominjin3.github.io-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://nominjin3.github.io)
 
-
+---
 <br>
 <h3><code>Github Analytic</code></h3>
 <div align="center">
@@ -47,11 +47,12 @@
   </div>
 </br>
 
----
+
 
 <h3><code>Github Graph</code></h3>
  <div align="center">
   <img height="180" src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue&hide_border=true&background=0D1117&ring=1F6FEB&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=8B949E&dates=8B949E"/>
+<img height="180" src="https://github.com/NOMINJIN3/NOMINJIN3/blob/main/preview-sample.svg"/>
 </div>
 
 <br/>
