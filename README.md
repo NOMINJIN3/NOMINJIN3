@@ -17,7 +17,7 @@
 <h3><code>nominjin@github ~ $ whoami</code></h3>
 <table>
 <tr>
-<td valign="top"><img src="./whoami-card(1).svg" width="370" alt="Nominjin — ASCII portrait" /></td>
+<td valign="top"><img src="./.svg" width="370" alt="Nominjin — ASCII portrait" /></td>
 </tr>
 </table>
 
@@ -33,8 +33,8 @@
 <p><b>Information Technology · Agentic Tools Developer · Cyber Security</b></p>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-nominjin.io-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://www.nominjin.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nominjin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nominjin)
-[![Instagram](https://img.shields.io/badge/Instagram-nominjin__nominjin3-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nomin3_jin)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nominjin)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nomin3_jin)
 [![Live Terminal](https://img.shields.io/badge/⚡_Live_Terminal-nominjin3.github.io-22d3ee?style=for-the-badge&logo=gnometerminal&logoColor=black)](https://nominjin3.github.io)
 
 ---
