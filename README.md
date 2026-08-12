@@ -17,8 +17,7 @@
 <h3><code>nominjin@github ~ $ whoami</code></h3>
 <table>
 <tr>
-<td valign="top"><img src="./nominjin-ascii.svg" width="370" alt="Nominjin — ASCII portrait" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="NOMI —  info card" /></td>
+<td valign="top"><img src="./whoami-card(1).svg" width="370" alt="Nominjin — ASCII portrait" /></td>
 </tr>
 </table>
 
