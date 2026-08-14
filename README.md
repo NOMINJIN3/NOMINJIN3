@@ -43,13 +43,6 @@
 <br>
 ---
 <br>
-<h3><code>Github Analytic</code></h3>
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=NOMINJIN3&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e&ring_color=1f6feb&include_all_commits=true&count_private=true"/>
-     <img src="./languages.svg" width="860" alt="Nomi's languages — auto-refreshed daily" />
-  </div>
-<br>
-
 
 <h3><code>Github Graph</code></h3>
  <div align="center">
