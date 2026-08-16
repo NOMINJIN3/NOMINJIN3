@@ -33,7 +33,7 @@
 <h3><code>nominjin@github ~ $ ./links.sh</code></h3>
 <p><b>Information Technology · Agentic Tools Developer · Cyber Security</b></p>
 
-[![Technology Advisory](https://img.shields.io/badge/nominjin.io-0d1117?style=for-the-badge&logo=MIT&&logoColor=white)](https://www.nominjin.io)
+[![Technology Advisory](https://img.shields.io/badge/nominjin.io-Portfolio-0d1117?style=for-the-badge&logo=MIT&&logoColor=white)](https://www.nominjin.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nominjin)
 [![X](https://img.shields.io/badge/@nomin1433-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/nomin1433)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nomin3_jin)
