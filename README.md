@@ -50,6 +50,14 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/d3js/d3js-original.svg"  title="D3" alt="D3" width="40" height="40"/>&nbsp;
   <div>
 
+
+---
+<br>
+<h3><code>Github Streak</code></h3>
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NOMINJIN3&theme=github_dark" alt="Profile details badge"/>
+</div>
+
 ---
 <br>
 <h3><code>Github Streak</code></h3>
