@@ -65,18 +65,6 @@
 ---
 <br>
 <h3><code>Top languages</code></h3>
-<table>
-  <tr>
-    <td width="50%">
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Repo" />
-    </td>
-    <td width="50%">
-      <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Commit" />
-    </td>
-  </tr>
-</table>
-
----
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Repo" width="48%" />
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Commit" width="48%" />
