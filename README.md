@@ -65,12 +65,11 @@
 ---
 <br>
 <h3><code>Top languages</code></h3>
-# Repo
+<h6><code>Repo</code></h6>
 <div align="left">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NOMINJIN3&theme=github_dark" alt="Top languages by repo badge"/>
-</div>
 
-# Commit 
+<h6><code>Commit</code></h6>
 <div align="right">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NOMINJIN3&theme=github_dark" alt="Top languages by commit badge"/>
 </div>
