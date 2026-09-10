@@ -8,13 +8,23 @@ import sys
 import re
 import json
 import urllib.request
+import urllib.error
 
 
 def fetch_html(username):
     url = f"https://github.com/{username}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req) as resp:
-        return resp.read().decode("utf-8")
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return resp.read().decode("utf-8")
+    except urllib.error.HTTPError as e:
+        print(f"Error: Failed to fetch data for user '{username}'")
+        print(f"HTTP Error {e.code}: {e.reason}")
+        print(f"URL: {e.url}")
+        sys.exit(1)
+    except Exception as e:
+        print(f"Error fetching contributions: {e}")
+        sys.exit(1)
 
 
 def parse_cells(html_text):
@@ -51,12 +61,7 @@ def main():
         sys.exit(1)
 
     username, output_path = sys.argv[1], sys.argv[2]
-    try:
-        html_text = fetch_html(username)
-    except urllib.error.HTTPError as e:
-        print(f"Error: Failed to fetch data for user '{username}'")
-        print(f"HTTP Error {e.code}: {e.reason}")
-        sys.exit(1)
+    html_text = fetch_html(username)
 
     data = {
         "username": username,
