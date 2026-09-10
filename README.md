@@ -47,6 +47,11 @@
  <div align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=NOMINJIN3&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb"/>
   <img width="95%" src="https://github.com/NOMINJIN3/NOMINJIN3/blob/main/preview-sample.svg"/>
+
+<h3><code>Github Streak</code></h3>
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=NOMINJIN3&theme=transparent&fire=EB5454" alt="GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NOMINJIN3&layout=compact&theme=vision-friendly-dark" alt="Top Languages"/>
 </div>
 
 
