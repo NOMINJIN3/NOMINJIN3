@@ -20,7 +20,7 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch latest contribution data
-        run: python scripts/fetch_contributions.py NominjinNomio data/contributions.json
+        run: python scripts/fetch_contributions.py NOMINJIN3 data/contributions.json
 
       - name: Render heatmap SVG
         run: python scripts/render_heatmap_svg.py data/contributions.json contrib-heatmap.svg
