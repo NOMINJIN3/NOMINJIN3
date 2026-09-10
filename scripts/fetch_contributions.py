@@ -11,7 +11,7 @@ import urllib.request
 
 
 def fetch_html(username):
-    url = f"https://github.com/users/{username}/contributions"
+    url = f"https://github.com/{username}"
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req) as resp:
         return resp.read().decode("utf-8")
@@ -51,7 +51,12 @@ def main():
         sys.exit(1)
 
     username, output_path = sys.argv[1], sys.argv[2]
-    html_text = fetch_html(username)
+    try:
+        html_text = fetch_html(username)
+    except urllib.error.HTTPError as e:
+        print(f"Error: Failed to fetch data for user '{username}'")
+        print(f"HTTP Error {e.code}: {e.reason}")
+        sys.exit(1)
 
     data = {
         "username": username,
