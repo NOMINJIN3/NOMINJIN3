@@ -53,9 +53,14 @@
 
 ---
 <br>
-<h3><code>Github Streak</code></h3>
+<h3><code>Profile details</code></h3>
 <div align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NOMINJIN3&theme=github_dark" alt="Profile details badge"/>
+</div>
+<br>
+<h3><code>General stats</code></h3>
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NOMINJIN3&theme=github_dark" alt="General stats badge"/>
 </div>
 
 ---
