@@ -13,7 +13,6 @@
 
 <br>
 <br>
-
 <h3><code>nominjin@github ~ $ whoami</code></h3>
 <table>
 <tr>
@@ -21,7 +20,6 @@
 <td valign="top"><img src="./info-card.svg" width="370" alt="Nominjin — Info card" /></td>
 </tr>
 </table>
-
 <br>
 <br>
 
@@ -41,6 +39,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-161b22?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NOMINJIN3)
 <br>
 ---
+<br>
 <h3><code>Favorite Tech</code></h3>
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
