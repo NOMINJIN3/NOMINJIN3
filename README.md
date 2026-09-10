@@ -50,7 +50,7 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/d3js/d3js-original.svg"  title="D3" alt="D3" width="40" height="40"/>&nbsp;
   <div>
 
-
+![Lego Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NOMINJIN3&theme=lego)
 ---
 <br>
 <h3><code>Profile details</code></h3>
