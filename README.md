@@ -57,10 +57,11 @@
 <div align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NOMINJIN3&theme=github_dark" alt="Profile details badge"/>
 </div>
+
 <br>
-<h3><code>General stats</code></h3>
+<h3><code>Github Streak</code></h3>
 <div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=NOMINJIN3&theme=github_dark" alt="General stats badge"/>
+  <img src="https://streak-stats.demolab.com?user=NOMINJIN3&theme=transparent&fire=EB5454" alt="GitHub Streak"/>
 </div>
 ---
 <br>
@@ -69,13 +70,6 @@
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Repo" width="40%" />
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Commit" width="40%" />
 </p>
-
----
-<br>
-<h3><code>Github Streak</code></h3>
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=NOMINJIN3&theme=transparent&fire=EB5454" alt="GitHub Streak"/>
-</div>
 ---
 <br>
 <h3><code>Github Graph</code></h3>
