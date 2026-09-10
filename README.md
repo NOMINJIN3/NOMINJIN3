@@ -63,13 +63,14 @@
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=NOMINJIN3&theme=transparent&fire=EB5454" alt="GitHub Streak"/>
 </div>
----
+
 <br>
 <h3><code>Top languages</code></h3>
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Repo" width="40%" />
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Commit" width="40%" />
 </p>
+<br>
 ---
 <br>
 <h3><code>Github Graph</code></h3>
