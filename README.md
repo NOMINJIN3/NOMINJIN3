@@ -69,7 +69,6 @@
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Commit" width="35%" />
 </p>
 <br>
----
 <br>
 <h3><code>Github Graph</code></h3>
  <div align="center">
