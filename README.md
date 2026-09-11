@@ -61,8 +61,11 @@
 <h3><code>Github Streak</code></h3>
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=NOMINJIN3&theme=transparent&fire=EB5454" alt="GitHub Streak"/>
-</div>
-
+</div>  
+<br>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue" alt="GitHub Streak"/>
+</div> 
 <br>
 <h3><code>Top languages</code></h3>
 <p align="center">
