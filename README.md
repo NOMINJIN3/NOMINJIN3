@@ -62,8 +62,6 @@
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue" alt="GitHub Streak"/>
 </div>
-<div align="center">
-     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NOMINJIN3&theme=default"></div>
 <br>
 <h3><code>Top languages</code></h3>
 <p align="center">
