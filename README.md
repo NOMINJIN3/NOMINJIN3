@@ -50,7 +50,7 @@
 </p>
 <br>
 <p align="center">
-  <img src="![Pacman Dark](https://raw.githubusercontent.com/NOMINJIN3/viz-pacman-github-profile/output/dist/pacman-contribution-graph-dark.svg)">
+  <img src="https://raw.githubusercontent.com/NOMINJIN3/viz-pacman-github-profile/output/dist/pacman-contribution-graph-dark.svg" alt="Pacman Dark" width="90%"></p>
 <br>
 
 ---
