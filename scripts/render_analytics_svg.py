@@ -10,7 +10,8 @@ from datetime import date
 
 W, H = 900, 520
 BG_TOP, BG_BOTTOM = "#0b1a33", "#050b16"
-ACCENT = "#3fb4ff"
+ACCENT = "#58A6FF"  # streak card sideNums / fire
+RING = "#1F6FEB"    # streak card ring
 TEXT = "#e6f1ff"
 MUTED = "#9fb3c8"
 DAYS = 31
@@ -102,7 +103,7 @@ def build_svg(data, name, graph_only=False):
         f'font-family="Ubuntu,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">',
         f"""<defs>
   <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{BG_TOP}"/><stop offset="1" stop-color="{BG_BOTTOM}"/></linearGradient>
-  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{ACCENT}" stop-opacity=".45"/><stop offset="1" stop-color="{ACCENT}" stop-opacity=".03"/></linearGradient>
+  <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{RING}" stop-opacity=".45"/><stop offset="1" stop-color="{RING}" stop-opacity=".03"/></linearGradient>
   <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
@@ -111,7 +112,7 @@ def build_svg(data, name, graph_only=False):
   .sub {{ fill:{MUTED}; font-size:13px; }}
   .axis {{ fill:{ACCENT}; font-size:10px; font-weight:700; }}
   .title {{ fill:{ACCENT}; font-size:14px; font-weight:700; }}
-  .grid {{ stroke:#2b4d73; stroke-width:1; stroke-dasharray:3 3; }}
+  .grid {{ stroke:#30363d; stroke-width:1; stroke-dasharray:3 3; }}
   .line {{ stroke-dasharray:3000; stroke-dashoffset:3000; animation:draw 2.2s ease-out .3s forwards; }}
   .fade {{ opacity:0; animation:fade .8s ease-out forwards; }}
   .ring {{ stroke-dasharray:283; stroke-dashoffset:283; animation:ring 1.4s ease-out .2s forwards; }}
@@ -136,7 +137,7 @@ def build_svg(data, name, graph_only=False):
 
     stats.append(f'<circle cx="{col[1]}" cy="84" r="45" fill="none" stroke="{ACCENT}" stroke-opacity=".2" stroke-width="7"/>')
     stats.append(
-        f'<circle class="ring" cx="{col[1]}" cy="84" r="45" fill="none" stroke="{ACCENT}" stroke-width="7" '
+        f'<circle class="ring" cx="{col[1]}" cy="84" r="45" fill="none" stroke="{RING}" stroke-width="7" '
         f'stroke-linecap="round" transform="rotate(-90 {col[1]} 84)" filter="url(#glow)"/>'
     )
     # flame icon on a badge at the top of the ring
@@ -176,14 +177,14 @@ def build_svg(data, name, graph_only=False):
 
     o.append(f'<path class="fade" style="animation-delay:1s" d="{area}" fill="url(#area)"/>')
     o.append(
-        f'<path class="line" d="{line}" fill="none" stroke="{ACCENT}" stroke-width="3.5" '
+        f'<path class="line" d="{line}" fill="none" stroke="{RING}" stroke-width="3.5" '
         f'stroke-linecap="round" filter="url(#glow)"/>'
     )
     for i, ((x, y), (d, c)) in enumerate(zip(pts, recent)):
         s = "" if c == 1 else "s"
         o.append(
             f'<circle class="fade" style="animation-delay:{0.3 + 2.2 * i / len(pts):.2f}s" cx="{x:.1f}" cy="{y:.1f}" r="5" '
-            f'fill="#a8e1ff" stroke="{ACCENT}" stroke-width="2"><title>{c} contribution{s} on {d.isoformat()}</title></circle>'
+            f'fill="{ACCENT}" stroke="{RING}" stroke-width="2"><title>{c} contribution{s} on {d.isoformat()}</title></circle>'
         )
 
     o.append("</g>")
