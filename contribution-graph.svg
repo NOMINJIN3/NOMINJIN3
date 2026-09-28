@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" font-family="Ubuntu,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320" font-family="Ubuntu,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0b1a33"/><stop offset="1" stop-color="#050b16"/></linearGradient>
   <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fb4ff" stop-opacity=".45"/><stop offset="1" stop-color="#3fb4ff" stop-opacity=".03"/></linearGradient>
@@ -19,23 +19,8 @@
   @keyframes ring { to { stroke-dashoffset:0; } }
   @media (prefers-reduced-motion: reduce) { .line,.ring { stroke-dashoffset:0; animation:none; } .fade { opacity:1; animation:none; } }
 </style>
-<rect width="900" height="520" rx="12" fill="url(#bg)"/>
-<text class="big" x="200.0" y="92" text-anchor="middle">713</text>
-<text class="lbl" x="200.0" y="126" text-anchor="middle">Total Contributions</text>
-<text class="sub" x="200.0" y="152" text-anchor="middle">Sep 28, 2025 - Present</text>
-<line x1="325.0" y1="50" x2="325.0" y2="170" stroke="#e6f1ff" stroke-opacity=".7" stroke-width="2"/>
-<line x1="575.0" y1="50" x2="575.0" y2="170" stroke="#e6f1ff" stroke-opacity=".7" stroke-width="2"/>
-<circle cx="450.0" cy="84" r="45" fill="none" stroke="#3fb4ff" stroke-opacity=".2" stroke-width="7"/>
-<circle class="ring" cx="450.0" cy="84" r="45" fill="none" stroke="#3fb4ff" stroke-width="7" stroke-linecap="round" transform="rotate(-90 450.0 84)" filter="url(#glow)"/>
-<circle cx="450.0" cy="39" r="14" fill="#0b1a33"/>
-<path transform="translate(441.0,27) scale(1.1 1.25)" fill="#3fb4ff" filter="url(#glow)" d="M8 0 C9 5 16 7 16 13 A8 7.5 0 0 1 0 13 C0 9 3 7 4 4 C5 6 6 7 7 7 C7 5 7 2 8 0 Z"/>
-<text x="450.0" y="96" text-anchor="middle" fill="#e6f1ff" font-size="32" font-weight="700">1</text>
-<text class="lbl" x="450.0" y="152" text-anchor="middle" fill="#3fb4ff" style="fill:#3fb4ff">Current Streak</text>
-<text class="sub" x="450.0" y="176" text-anchor="middle">Sep 28 - Sep 28</text>
-<text class="big" x="700.0" y="92" text-anchor="middle">6</text>
-<text class="lbl" x="700.0" y="126" text-anchor="middle">Longest Streak</text>
-<text class="sub" x="700.0" y="152" text-anchor="middle">Aug 11 - Aug 16</text>
-<g transform="translate(0 0)">
+<rect width="900" height="320" rx="12" fill="url(#bg)"/>
+<g transform="translate(0 -200)">
 <text class="title" x="450.0" y="226" text-anchor="middle">Nominjin's Contribution Graph</text>
 <rect x="90" y="250" width="770" height="200" fill="#0a1f3d" fill-opacity=".55"/>
 <line class="grid" x1="90" y1="450.0" x2="860" y2="450.0"/>

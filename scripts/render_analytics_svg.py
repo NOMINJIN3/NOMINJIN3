@@ -2,7 +2,7 @@
 Renders github-analytics.svg: total contributions, current / longest streak,
 and a smooth line graph of the last 31 days, from data/contributions.json.
 
-Usage: python render_analytics_svg.py <data_json> <output_svg> [display_name]
+Usage: python render_analytics_svg.py <data_json> <output_svg> [display_name] [--graph-only]
 """
 import json
 import sys
@@ -74,7 +74,7 @@ def smooth_path(pts):
     return d
 
 
-def build_svg(data, name):
+def build_svg(data, name, graph_only=False):
     days = sorted(
         ((date.fromisoformat(d["date"]), d["count"]) for w in data["weeks"] for d in w),
         key=lambda x: x[0],
@@ -95,8 +95,10 @@ def build_svg(data, name):
     line = smooth_path(pts)
     area = f"{line} L{pts[-1][0]:.1f},{cy1} L{pts[0][0]:.1f},{cy1} Z"
 
+    shift = 200 if graph_only else 0  # graph-only: drop the stats row
+    HH = H - shift
     o = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{HH}" viewBox="0 0 {W} {HH}" '
         f'font-family="Ubuntu,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">',
         f"""<defs>
   <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{BG_TOP}"/><stop offset="1" stop-color="{BG_BOTTOM}"/></linearGradient>
@@ -118,38 +120,43 @@ def build_svg(data, name):
   @keyframes ring {{ to {{ stroke-dashoffset:0; }} }}
   @media (prefers-reduced-motion: reduce) {{ .line,.ring {{ stroke-dashoffset:0; animation:none; }} .fade {{ opacity:1; animation:none; }} }}
 </style>""",
-        f'<rect width="{W}" height="{H}" rx="12" fill="url(#bg)"/>',
+        f'<rect width="{W}" height="{HH}" rx="12" fill="url(#bg)"/>',
     ]
+    stats = []
 
     # ---- stats row
     col = [W / 2 - 250, W / 2, W / 2 + 250]
-    o.append(f'<text class="big" x="{col[0]}" y="92" text-anchor="middle">{total:,}</text>')
-    o.append(f'<text class="lbl" x="{col[0]}" y="126" text-anchor="middle">Total Contributions</text>')
-    o.append(f'<text class="sub" x="{col[0]}" y="152" text-anchor="middle">{fmt(first)}, {first.year} - Present</text>')
+    stats.append(f'<text class="big" x="{col[0]}" y="92" text-anchor="middle">{total:,}</text>')
+    stats.append(f'<text class="lbl" x="{col[0]}" y="126" text-anchor="middle">Total Contributions</text>')
+    stats.append(f'<text class="sub" x="{col[0]}" y="152" text-anchor="middle">{fmt(first)}, {first.year} - Present</text>')
 
-    o.append(f'<line x1="{W/2-125}" y1="50" x2="{W/2-125}" y2="170" stroke="{TEXT}" stroke-opacity=".7" stroke-width="2"/>')
-    o.append(f'<line x1="{W/2+125}" y1="50" x2="{W/2+125}" y2="170" stroke="{TEXT}" stroke-opacity=".7" stroke-width="2"/>')
+    stats.append(f'<line x1="{W/2-125}" y1="50" x2="{W/2-125}" y2="170" stroke="{TEXT}" stroke-opacity=".7" stroke-width="2"/>')
+    stats.append(f'<line x1="{W/2+125}" y1="50" x2="{W/2+125}" y2="170" stroke="{TEXT}" stroke-opacity=".7" stroke-width="2"/>')
 
-    o.append(f'<circle cx="{col[1]}" cy="84" r="45" fill="none" stroke="{ACCENT}" stroke-opacity=".2" stroke-width="7"/>')
-    o.append(
+    stats.append(f'<circle cx="{col[1]}" cy="84" r="45" fill="none" stroke="{ACCENT}" stroke-opacity=".2" stroke-width="7"/>')
+    stats.append(
         f'<circle class="ring" cx="{col[1]}" cy="84" r="45" fill="none" stroke="{ACCENT}" stroke-width="7" '
         f'stroke-linecap="round" transform="rotate(-90 {col[1]} 84)" filter="url(#glow)"/>'
     )
     # flame icon on a badge at the top of the ring
-    o.append(f'<circle cx="{col[1]}" cy="{84-45}" r="14" fill="{BG_TOP}"/>')
-    o.append(
+    stats.append(f'<circle cx="{col[1]}" cy="{84-45}" r="14" fill="{BG_TOP}"/>')
+    stats.append(
         f'<path transform="translate({col[1]-9},{84-45-12}) scale(1.1 1.25)" fill="{ACCENT}" filter="url(#glow)" '
         f'd="M8 0 C9 5 16 7 16 13 A8 7.5 0 0 1 0 13 C0 9 3 7 4 4 C5 6 6 7 7 7 C7 5 7 2 8 0 Z"/>'
     )
-    o.append(f'<text x="{col[1]}" y="96" text-anchor="middle" fill="{TEXT}" font-size="32" font-weight="700">{current[0]}</text>')
-    o.append(f'<text class="lbl" x="{col[1]}" y="152" text-anchor="middle" fill="{ACCENT}" style="fill:{ACCENT}">Current Streak</text>')
-    o.append(f'<text class="sub" x="{col[1]}" y="176" text-anchor="middle">{rng(current)}</text>')
+    stats.append(f'<text x="{col[1]}" y="96" text-anchor="middle" fill="{TEXT}" font-size="32" font-weight="700">{current[0]}</text>')
+    stats.append(f'<text class="lbl" x="{col[1]}" y="152" text-anchor="middle" fill="{ACCENT}" style="fill:{ACCENT}">Current Streak</text>')
+    stats.append(f'<text class="sub" x="{col[1]}" y="176" text-anchor="middle">{rng(current)}</text>')
 
-    o.append(f'<text class="big" x="{col[2]}" y="92" text-anchor="middle">{longest[0]}</text>')
-    o.append(f'<text class="lbl" x="{col[2]}" y="126" text-anchor="middle">Longest Streak</text>')
-    o.append(f'<text class="sub" x="{col[2]}" y="152" text-anchor="middle">{rng(longest)}</text>')
+    stats.append(f'<text class="big" x="{col[2]}" y="92" text-anchor="middle">{longest[0]}</text>')
+    stats.append(f'<text class="lbl" x="{col[2]}" y="126" text-anchor="middle">Longest Streak</text>')
+    stats.append(f'<text class="sub" x="{col[2]}" y="152" text-anchor="middle">{rng(longest)}</text>')
+
+    if not graph_only:
+        o.extend(stats)
 
     # ---- chart
+    o.append(f'<g transform="translate(0 {-shift})">')
     o.append(f'<text class="title" x="{W/2}" y="226" text-anchor="middle">{name}\'s Contribution Graph</text>')
     o.append(f'<rect x="{cx0}" y="{cy0}" width="{cx1-cx0}" height="{cy1-cy0}" fill="#0a1f3d" fill-opacity=".55"/>')
     for k in range(11):
@@ -177,19 +184,22 @@ def build_svg(data, name):
             f'fill="#a8e1ff" stroke="{ACCENT}" stroke-width="2"><title>{c} contribution{s} on {d.isoformat()}</title></circle>'
         )
 
+    o.append("</g>")
     o.append("</svg>")
     return "\n".join(o) + "\n"
 
 
 def main():
-    if len(sys.argv) not in (3, 4):
-        sys.exit("Usage: python render_analytics_svg.py <data_json> <output_svg> [display_name]")
-    with open(sys.argv[1]) as f:
+    graph_only = "--graph-only" in sys.argv
+    args = [a for a in sys.argv[1:] if a != "--graph-only"]
+    if len(args) not in (2, 3):
+        sys.exit("Usage: python render_analytics_svg.py <data_json> <output_svg> [display_name] [--graph-only]")
+    with open(args[0]) as f:
         data = json.load(f)
-    name = sys.argv[3] if len(sys.argv) == 4 else data.get("username", "")
-    with open(sys.argv[2], "w") as f:
-        f.write(build_svg(data, name))
-    print(f"Wrote {sys.argv[2]}")
+    name = args[2] if len(args) == 3 else data.get("username", "")
+    with open(args[1], "w") as f:
+        f.write(build_svg(data, name, graph_only))
+    print(f"Wrote {args[1]}")
 
 
 if __name__ == "__main__":
