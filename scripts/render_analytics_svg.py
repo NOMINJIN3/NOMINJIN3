@@ -109,8 +109,8 @@ def build_svg(data, name, graph_only=False):
   .big {{ fill:{ACCENT}; font-size:34px; font-weight:700; }}
   .lbl {{ fill:{TEXT}; font-size:16px; font-weight:600; }}
   .sub {{ fill:{MUTED}; font-size:13px; }}
-  .axis {{ fill:{ACCENT}; font-size:12px; font-weight:700; }}
-  .title {{ fill:{ACCENT}; font-size:17px; font-weight:700; }}
+  .axis {{ fill:{ACCENT}; font-size:10px; font-weight:700; }}
+  .title {{ fill:{ACCENT}; font-size:14px; font-weight:700; }}
   .grid {{ stroke:#2b4d73; stroke-width:1; stroke-dasharray:3 3; }}
   .line {{ stroke-dasharray:3000; stroke-dashoffset:3000; animation:draw 2.2s ease-out .3s forwards; }}
   .fade {{ opacity:0; animation:fade .8s ease-out forwards; }}
@@ -120,8 +120,9 @@ def build_svg(data, name, graph_only=False):
   @keyframes ring {{ to {{ stroke-dashoffset:0; }} }}
   @media (prefers-reduced-motion: reduce) {{ .line,.ring {{ stroke-dashoffset:0; animation:none; }} .fade {{ opacity:1; animation:none; }} }}
 </style>""",
-        f'<rect width="{W}" height="{HH}" rx="12" fill="url(#bg)"/>',
     ]
+    if not graph_only:  # graph-only: transparent background, blends into the page
+        o.append(f'<rect width="{W}" height="{HH}" rx="12" fill="url(#bg)"/>')
     stats = []
 
     # ---- stats row
@@ -158,7 +159,8 @@ def build_svg(data, name, graph_only=False):
     # ---- chart
     o.append(f'<g transform="translate(0 {-shift})">')
     o.append(f'<text class="title" x="{W/2}" y="226" text-anchor="middle">{name}\'s Contribution Graph</text>')
-    o.append(f'<rect x="{cx0}" y="{cy0}" width="{cx1-cx0}" height="{cy1-cy0}" fill="#0a1f3d" fill-opacity=".55"/>')
+    if not graph_only:
+        o.append(f'<rect x="{cx0}" y="{cy0}" width="{cx1-cx0}" height="{cy1-cy0}" fill="#0a1f3d" fill-opacity=".55"/>')
     for k in range(11):
         v = ymax * k / 10
         y = cy1 - k / 10 * (cy1 - cy0)
@@ -167,9 +169,9 @@ def build_svg(data, name, graph_only=False):
     for (x, _), (d, _) in zip(pts, recent):
         o.append(f'<line class="grid" x1="{x:.1f}" y1="{cy0}" x2="{x:.1f}" y2="{cy1}"/>')
         o.append(f'<text class="axis" x="{x:.1f}" y="{cy1+20}" text-anchor="middle">{d.day}</text>')
-    o.append(f'<text class="axis" x="{(cx0+cx1)/2}" y="{H-18}" text-anchor="middle" font-size="13">Days</text>')
+    o.append(f'<text class="axis" x="{(cx0+cx1)/2}" y="{H-18}" text-anchor="middle" font-size="11">Days</text>')
     o.append(
-        f'<text class="axis" transform="translate(32 {(cy0+cy1)/2}) rotate(-90)" text-anchor="middle" font-size="13">Contributions</text>'
+        f'<text class="axis" transform="translate(32 {(cy0+cy1)/2}) rotate(-90)" text-anchor="middle" font-size="11">Contributions</text>'
     )
 
     o.append(f'<path class="fade" style="animation-delay:1s" d="{area}" fill="url(#area)"/>')

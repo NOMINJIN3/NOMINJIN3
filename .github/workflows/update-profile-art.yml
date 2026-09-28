@@ -31,8 +31,8 @@ jobs:
 
       - name: Render analytics graph SVG
         run: |
-          python scripts/render_analytics_svg.py data/contributions.json github-analytics.svg Nominjin
-          python scripts/render_analytics_svg.py data/contributions.json contribution-graph.svg Nominjin --graph-only
+          python scripts/render_analytics_svg.py data/contributions.json github-analytics.svg "Nominjin Tsogtbayar"
+          python scripts/render_analytics_svg.py data/contributions.json contribution-graph.svg "Nominjin Tsogtbayar" --graph-only
 
       - name: Commit changes if any
         run: |

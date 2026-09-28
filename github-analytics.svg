@@ -8,8 +8,8 @@
   .big { fill:#3fb4ff; font-size:34px; font-weight:700; }
   .lbl { fill:#e6f1ff; font-size:16px; font-weight:600; }
   .sub { fill:#9fb3c8; font-size:13px; }
-  .axis { fill:#3fb4ff; font-size:12px; font-weight:700; }
-  .title { fill:#3fb4ff; font-size:17px; font-weight:700; }
+  .axis { fill:#3fb4ff; font-size:10px; font-weight:700; }
+  .title { fill:#3fb4ff; font-size:14px; font-weight:700; }
   .grid { stroke:#2b4d73; stroke-width:1; stroke-dasharray:3 3; }
   .line { stroke-dasharray:3000; stroke-dashoffset:3000; animation:draw 2.2s ease-out .3s forwards; }
   .fade { opacity:0; animation:fade .8s ease-out forwards; }
@@ -36,7 +36,7 @@
 <text class="lbl" x="700.0" y="126" text-anchor="middle">Longest Streak</text>
 <text class="sub" x="700.0" y="152" text-anchor="middle">Aug 11 - Aug 16</text>
 <g transform="translate(0 0)">
-<text class="title" x="450.0" y="226" text-anchor="middle">Nominjin's Contribution Graph</text>
+<text class="title" x="450.0" y="226" text-anchor="middle">Nominjin Tsogtbayar's Contribution Graph</text>
 <rect x="90" y="250" width="770" height="200" fill="#0a1f3d" fill-opacity=".55"/>
 <line class="grid" x1="90" y1="450.0" x2="860" y2="450.0"/>
 <text class="axis" x="82" y="454.0" text-anchor="end">0</text>
@@ -122,8 +122,8 @@
 <text class="axis" x="834.3" y="470" text-anchor="middle">27</text>
 <line class="grid" x1="860.0" y1="250" x2="860.0" y2="450"/>
 <text class="axis" x="860.0" y="470" text-anchor="middle">28</text>
-<text class="axis" x="475.0" y="502" text-anchor="middle" font-size="13">Days</text>
-<text class="axis" transform="translate(32 350.0) rotate(-90)" text-anchor="middle" font-size="13">Contributions</text>
+<text class="axis" x="475.0" y="502" text-anchor="middle" font-size="11">Days</text>
+<text class="axis" transform="translate(32 350.0) rotate(-90)" text-anchor="middle" font-size="11">Contributions</text>
 <path class="fade" style="animation-delay:1s" d="M90.0,410.0 C94.3,416.7 107.1,443.3 115.7,450.0 C124.2,450.0 132.8,450.0 141.3,450.0 C149.9,450.0 158.4,450.0 167.0,450.0 C175.6,450.0 184.1,450.0 192.7,450.0 C201.2,450.0 209.8,450.0 218.3,450.0 C226.9,450.0 235.4,450.0 244.0,450.0 C252.6,450.0 261.1,450.0 269.7,450.0 C278.2,450.0 286.8,450.0 295.3,450.0 C303.9,450.0 312.4,450.0 321.0,450.0 C329.6,450.0 338.1,450.0 346.7,450.0 C355.2,450.0 363.8,450.0 372.3,450.0 C380.9,439.2 389.4,407.5 398.0,385.0 C406.6,362.5 415.1,335.0 423.7,315.0 C432.2,295.0 440.8,265.0 449.3,265.0 C457.9,287.5 466.4,419.2 475.0,450.0 C483.6,450.0 492.1,450.0 500.7,450.0 C509.2,450.0 517.8,450.0 526.3,450.0 C534.9,450.0 543.4,450.0 552.0,450.0 C560.6,445.8 569.1,425.0 577.7,425.0 C586.2,425.0 594.8,445.8 603.3,450.0 C611.9,450.0 620.4,450.0 629.0,450.0 C637.6,450.0 646.1,450.0 654.7,450.0 C663.2,450.0 671.8,450.0 680.3,450.0 C688.9,450.0 697.4,450.0 706.0,450.0 C714.6,450.0 723.1,450.0 731.7,450.0 C740.2,450.0 748.8,450.0 757.3,450.0 C765.9,450.0 774.4,450.0 783.0,450.0 C791.6,450.0 800.1,450.0 808.7,450.0 C817.2,450.0 825.8,450.0 834.3,450.0 C842.9,449.2 855.7,445.8 860.0,445.0 L860.0,450 L90.0,450 Z" fill="url(#area)"/>
 <path class="line" d="M90.0,410.0 C94.3,416.7 107.1,443.3 115.7,450.0 C124.2,450.0 132.8,450.0 141.3,450.0 C149.9,450.0 158.4,450.0 167.0,450.0 C175.6,450.0 184.1,450.0 192.7,450.0 C201.2,450.0 209.8,450.0 218.3,450.0 C226.9,450.0 235.4,450.0 244.0,450.0 C252.6,450.0 261.1,450.0 269.7,450.0 C278.2,450.0 286.8,450.0 295.3,450.0 C303.9,450.0 312.4,450.0 321.0,450.0 C329.6,450.0 338.1,450.0 346.7,450.0 C355.2,450.0 363.8,450.0 372.3,450.0 C380.9,439.2 389.4,407.5 398.0,385.0 C406.6,362.5 415.1,335.0 423.7,315.0 C432.2,295.0 440.8,265.0 449.3,265.0 C457.9,287.5 466.4,419.2 475.0,450.0 C483.6,450.0 492.1,450.0 500.7,450.0 C509.2,450.0 517.8,450.0 526.3,450.0 C534.9,450.0 543.4,450.0 552.0,450.0 C560.6,445.8 569.1,425.0 577.7,425.0 C586.2,425.0 594.8,445.8 603.3,450.0 C611.9,450.0 620.4,450.0 629.0,450.0 C637.6,450.0 646.1,450.0 654.7,450.0 C663.2,450.0 671.8,450.0 680.3,450.0 C688.9,450.0 697.4,450.0 706.0,450.0 C714.6,450.0 723.1,450.0 731.7,450.0 C740.2,450.0 748.8,450.0 757.3,450.0 C765.9,450.0 774.4,450.0 783.0,450.0 C791.6,450.0 800.1,450.0 808.7,450.0 C817.2,450.0 825.8,450.0 834.3,450.0 C842.9,449.2 855.7,445.8 860.0,445.0" fill="none" stroke="#3fb4ff" stroke-width="3.5" stroke-linecap="round" filter="url(#glow)"/>
 <circle class="fade" style="animation-delay:0.30s" cx="90.0" cy="410.0" r="5" fill="#a8e1ff" stroke="#3fb4ff" stroke-width="2"><title>8 contributions on 2026-08-29</title></circle>
