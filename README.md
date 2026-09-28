@@ -1,8 +1,6 @@
 <div align="center">
-<h3><code>nominjin@github ~ $ ./contributions.sh</code></h3>
-
-<img src="./contrib-heatmap.svg" width="860" alt="Nomi's GitHub contribution graph — auto-refreshed daily" />
-
+<h3><code>nominjin@github ~ $ ./contributions-3d.sh</code></h3>
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="860" alt="Nomi's 3D contribution graph — auto-refreshed daily" />
 <br>
 <br>
 <h3><code>nominjin@github ~ $ whoami</code></h3>
@@ -43,17 +41,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue" alt="GitHub Streak"/>
 </div>
 <br>
-<h3><code>nominjin@github ~ $ ./contributions-3d.sh</code></h3>
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="860" alt="Nomi's 3D contribution graph — auto-refreshed daily" />
-<br>
-<h3><code>Top languages</code></h3>
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Repo" width="35%" />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Commit" width="35%" />
-</p>
-<br>
-<br>
-
 ---
 <div align="center">
 
