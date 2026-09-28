@@ -1,6 +1,7 @@
 <div align="center">
 <h3><code>nominjin@github ~ $ ./contributions-3d.sh</code></h3>
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="860" alt="Nomi's 3D contribution graph — auto-refreshed daily" />
+---
 <br>
 <br>
 <h3><code>nominjin@github ~ $ whoami</code></h3>
@@ -43,8 +44,9 @@
 <br>
 <img src="./contribution-graph.svg" width="860" alt="Nomi's contribution graph — last 31 days, auto-refreshed daily" />
 <br>
----
 <br>
+
+---
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=NOMINJIN3&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
@@ -54,5 +56,4 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=120&section=footer"/>
 
 </div>
-
 </div>
