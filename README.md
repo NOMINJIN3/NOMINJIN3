@@ -5,6 +5,12 @@
 
 <br>
 <br>
+<h3><code>nominjin@github ~ $ ./contributions-3d.sh</code></h3>
+
+<img src="./profile-3d-contrib/profile-gitblock.svg" width="860" alt="Nomi's 3D contribution graph — auto-refreshed daily" />
+
+<br>
+<br>
 <h3><code>nominjin@github ~ $ whoami</code></h3>
 <table>
 <td valign="top"><img src="./whoami-card(1).svg" width="800" alt="Nominjin — Info card" /></td>
