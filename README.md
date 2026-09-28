@@ -38,7 +38,7 @@
 <br>
 <h3><code>Github Streak</code></h3>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue&hide_border=true" alt="GitHub Streak"/>
 </div>
 <br>
 <img src="./contribution-graph.svg" width="860" alt="Nomi's contribution graph — last 31 days, auto-refreshed daily" />
