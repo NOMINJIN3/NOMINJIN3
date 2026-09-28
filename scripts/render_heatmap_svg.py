@@ -1,18 +1,17 @@
 """
-Renders contrib-heatmap.svg from the JSON data produced by fetch_contributions.py.
+Renders contrib-heatmap.svg from the JSON produced by fetch_contributions.py.
 
 Usage: python render_heatmap_svg.py <data_json> <output_svg>
 """
-import sys
 import json
+import sys
+from datetime import date
 
-LEVEL_COLORS = ["#0e4429", "#006d32", "#26a641", "#39d353", "#39d353"]
-CELL_SIZE = 13
-GAP = 3
-STEP = CELL_SIZE + GAP
-LEFT_OFFSET = 34
-TOP_OFFSET = 24
-W, H = 888, 158
+# GitHub dark-theme palette: level 0 (no contributions) .. level 4
+LEVEL_COLORS = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+CELL, STEP, LEFT, TOP, H = 13, 16, 34, 24, 158
+WAVE_SECONDS = 2.0  # total length of the left-to-right pop-in wave
 
 STYLE = """<style>
   text.lbl { fill:#7d8590; font-size:13px; font-weight:600; }
@@ -25,55 +24,77 @@ STYLE = """<style>
 </style>"""
 
 
+def fill_missing_levels(weeks):
+    """If levels are absent, approximate GitHub's quartiles from the counts."""
+    days = [d for w in weeks for d in w]
+    if all("level" in d for d in days):
+        return
+    counts = sorted(d["count"] for d in days if d["count"] > 0)
+    if not counts:
+        cuts = [0, 0, 0]
+    else:
+        cuts = [counts[int(len(counts) * q)] for q in (0.25, 0.5, 0.75)]
+    for d in days:
+        c = d["count"]
+        d["level"] = 0 if c == 0 else 1 + sum(c > cut for cut in cuts)
+
+
 def build_svg(data):
-    parts = []
-    parts.append(
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-        f'font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">'
+    weeks = data["weeks"]
+    fill_missing_levels(weeks)
+    width = LEFT + len(weeks) * STEP + 6
+    total_cells = sum(len(w) for w in weeks)
+    out = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{H}" viewBox="0 0 {width} {H}" '
+        f'font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">',
+        STYLE,
+    ]
+
+    # Month labels above the first week that starts in a new month
+    last_month, last_x = None, -100
+    for i, week in enumerate(weeks):
+        m = date.fromisoformat(week[0]["date"]).month
+        x = LEFT + i * STEP
+        if m != last_month:
+            if x - last_x >= 32:
+                out.append(f'<text class="lbl" x="{x}" y="16">{MONTHS[m - 1]}</text>')
+                last_x = x
+            last_month = m
+
+    out.append('<text class="lbl" x="2" y="54">Mon</text>')
+    out.append('<text class="lbl" x="2" y="86">Wed</text>')
+    out.append('<text class="lbl" x="2" y="118">Fri</text>')
+
+    idx = 0
+    for i, week in enumerate(weeks):
+        for d in week:
+            x, y = LEFT + i * STEP, TOP + d["weekday"] * STEP
+            delay = idx / max(total_cells - 1, 1) * WAVE_SECONDS
+            idx += 1
+            cls = "c g" if d["count"] else "c"
+            s = "" if d["count"] == 1 else "s"
+            out.append(
+                f'<rect class="{cls}" x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2.5" '
+                f'fill="{LEVEL_COLORS[d["level"]]}" style="animation-delay:{delay:.3f}s">'
+                f'<title>{d["count"]} contribution{s} on {d["date"]}</title></rect>'
+            )
+
+    total = int(data["total"])
+    out.append(
+        f'<text class="total" x="{LEFT}" y="152">{total:,} contribution{"" if total == 1 else "s"} in the last year</text>'
     )
-    parts.append(STYLE)
-    parts.append(f'<rect width="{W}" height="{H}" fill="none"/>')
-
-    col = 0
-    for m in data["months"]:
-        x = LEFT_OFFSET + col * STEP
-        parts.append(f'<text class="lbl" x="{x}" y="16">{m["name"]}</text>')
-        col += m["span"]
-
-    parts.append(f'<text class="lbl" x="2" y="{TOP_OFFSET + 2 * STEP - 2}">Mon</text>')
-    parts.append(f'<text class="lbl" x="2" y="{TOP_OFFSET + 4 * STEP - 2}">Wed</text>')
-    parts.append(f'<text class="lbl" x="2" y="{TOP_OFFSET + 6 * STEP - 2}">Fri</text>')
-
-    cells_sorted = sorted(data["cells"], key=lambda c: (c["col"], c["row"]))
-    delay = 0.0
-    for c in cells_sorted:
-        x = LEFT_OFFSET + c["col"] * STEP
-        y = TOP_OFFSET + c["row"] * STEP
-        color = LEVEL_COLORS[c["level"]]
-        parts.append(
-            f'<rect class="c g" x="{x}" y="{y}" width="{CELL_SIZE}" height="{CELL_SIZE}" '
-            f'rx="2.5" fill="{color}" style="animation-delay:{delay:.3f}s"/>'
-        )
-        delay += 0.0057
-
-    parts.append(f'<text class="total" x="{LEFT_OFFSET}" y="{H - 6}">{data["total"]} contributions in the last year</text>')
-    parts.append("</svg>")
-    return "\n".join(parts)
+    out.append("</svg>")
+    return "\n".join(out) + "\n"
 
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python render_heatmap_svg.py <data_json> <output_svg>")
-        sys.exit(1)
-
-    data_path, output_svg = sys.argv[1], sys.argv[2]
-    with open(data_path) as f:
+        sys.exit("Usage: python render_heatmap_svg.py <data_json> <output_svg>")
+    with open(sys.argv[1]) as f:
         data = json.load(f)
-
-    svg = build_svg(data)
-    with open(output_svg, "w") as f:
-        f.write(svg)
-    print(f"Wrote {output_svg}")
+    with open(sys.argv[2], "w") as f:
+        f.write(build_svg(data))
+    print(f"Wrote {sys.argv[2]}")
 
 
 if __name__ == "__main__":

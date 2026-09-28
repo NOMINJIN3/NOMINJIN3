@@ -20,6 +20,10 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch latest contribution data
+        env:
+          # CONTRIB_TOKEN = personal access token (classic, scope read:user) so private
+          # contributions are counted too. Falls back to the built-in token if not set.
+          GITHUB_TOKEN: ${{ secrets.CONTRIB_TOKEN || secrets.GITHUB_TOKEN }}
         run: python scripts/fetch_contributions.py NOMINJIN3 data/contributions.json
 
       - name: Render heatmap SVG
