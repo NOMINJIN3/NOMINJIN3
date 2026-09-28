@@ -9,7 +9,6 @@
 </table>
 <br>
 <br>
-
 <br>
 
 <h3><code>nominjin@github ~ $ ./links.sh</code></h3>
@@ -41,9 +40,11 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue&hide_border=true" alt="GitHub Streak"/>
 </div>
 <br>
+<br>
 <img src="./contribution-graph.svg" width="860" alt="Nomi's contribution graph — last 31 days, auto-refreshed daily" />
 <br>
 ---
+<br>
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=NOMINJIN3&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
