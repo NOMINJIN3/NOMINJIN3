@@ -9,7 +9,6 @@
 <table>
 <td valign="top"><img src="./whoami-card(1).svg" width="800" alt="Nominjin — Info card" /></td>
 </table>
-<img src="./scroll-banner.svg" width="860" alt="Information Technology · Agentic Tools Developer · Cyber Security" />
 <br>
 <br>
 <br>
