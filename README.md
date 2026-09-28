@@ -1,7 +1,6 @@
 <div align="center">
 <h3><code>nominjin@github ~ $ ./contributions-3d.sh</code></h3>
 <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="860" alt="Nomi's 3D contribution graph — auto-refreshed daily" />
-<img src="./scroll-banner.svg" width="860" alt="Information Technology · Agentic Tools Developer · Cyber Security" />
   
 ---
 <br>
@@ -45,6 +44,7 @@
 <br>
 <br>
 <img src="./contribution-graph.svg" width="860" alt="Nomi's contribution graph — last 31 days, auto-refreshed daily" />
+<img src="./scroll-banner.svg" width="860" alt="Information Technology · Agentic Tools Developer · Cyber Security" />
 <br>
 <br>
 
