@@ -41,7 +41,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=NOMINJIN3&theme=github-dark-blue" alt="GitHub Streak"/>
 </div>
 <br>
-<h3><code>nominjin@github ~ $ ./contribution-graph.sh</code></h3>
 <img src="./contribution-graph.svg" width="860" alt="Nomi's contribution graph — last 31 days, auto-refreshed daily" />
 <br>
 ---
