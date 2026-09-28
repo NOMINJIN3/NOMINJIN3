@@ -49,8 +49,6 @@
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NOMINJIN3&theme=github_dark" alt="Top Languages by Commit" width="35%" />
 </p>
 <br>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/NOMINJIN3/viz-pacman-github-profile/output/dist/pacman-contribution-graph-dark.svg" alt="Pacman Dark" width="90%"></p>
 <br>
 
 ---
