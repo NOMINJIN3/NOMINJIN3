@@ -44,101 +44,101 @@
 <line class="grid" x1="90" y1="250.0" x2="860" y2="250.0"/>
 <text class="axis" x="82" y="254.0" text-anchor="end">40</text>
 <line class="grid" x1="90.0" y1="250" x2="90.0" y2="450"/>
-<text class="axis" x="90.0" y="470" text-anchor="middle">30</text>
+<text class="axis" x="90.0" y="470" text-anchor="middle">31</text>
 <line class="grid" x1="115.7" y1="250" x2="115.7" y2="450"/>
-<text class="axis" x="115.7" y="470" text-anchor="middle">31</text>
+<text class="axis" x="115.7" y="470" text-anchor="middle">1</text>
 <line class="grid" x1="141.3" y1="250" x2="141.3" y2="450"/>
-<text class="axis" x="141.3" y="470" text-anchor="middle">1</text>
+<text class="axis" x="141.3" y="470" text-anchor="middle">2</text>
 <line class="grid" x1="167.0" y1="250" x2="167.0" y2="450"/>
-<text class="axis" x="167.0" y="470" text-anchor="middle">2</text>
+<text class="axis" x="167.0" y="470" text-anchor="middle">3</text>
 <line class="grid" x1="192.7" y1="250" x2="192.7" y2="450"/>
-<text class="axis" x="192.7" y="470" text-anchor="middle">3</text>
+<text class="axis" x="192.7" y="470" text-anchor="middle">4</text>
 <line class="grid" x1="218.3" y1="250" x2="218.3" y2="450"/>
-<text class="axis" x="218.3" y="470" text-anchor="middle">4</text>
+<text class="axis" x="218.3" y="470" text-anchor="middle">5</text>
 <line class="grid" x1="244.0" y1="250" x2="244.0" y2="450"/>
-<text class="axis" x="244.0" y="470" text-anchor="middle">5</text>
+<text class="axis" x="244.0" y="470" text-anchor="middle">6</text>
 <line class="grid" x1="269.7" y1="250" x2="269.7" y2="450"/>
-<text class="axis" x="269.7" y="470" text-anchor="middle">6</text>
+<text class="axis" x="269.7" y="470" text-anchor="middle">7</text>
 <line class="grid" x1="295.3" y1="250" x2="295.3" y2="450"/>
-<text class="axis" x="295.3" y="470" text-anchor="middle">7</text>
+<text class="axis" x="295.3" y="470" text-anchor="middle">8</text>
 <line class="grid" x1="321.0" y1="250" x2="321.0" y2="450"/>
-<text class="axis" x="321.0" y="470" text-anchor="middle">8</text>
+<text class="axis" x="321.0" y="470" text-anchor="middle">9</text>
 <line class="grid" x1="346.7" y1="250" x2="346.7" y2="450"/>
-<text class="axis" x="346.7" y="470" text-anchor="middle">9</text>
+<text class="axis" x="346.7" y="470" text-anchor="middle">10</text>
 <line class="grid" x1="372.3" y1="250" x2="372.3" y2="450"/>
-<text class="axis" x="372.3" y="470" text-anchor="middle">10</text>
+<text class="axis" x="372.3" y="470" text-anchor="middle">11</text>
 <line class="grid" x1="398.0" y1="250" x2="398.0" y2="450"/>
-<text class="axis" x="398.0" y="470" text-anchor="middle">11</text>
+<text class="axis" x="398.0" y="470" text-anchor="middle">12</text>
 <line class="grid" x1="423.7" y1="250" x2="423.7" y2="450"/>
-<text class="axis" x="423.7" y="470" text-anchor="middle">12</text>
+<text class="axis" x="423.7" y="470" text-anchor="middle">13</text>
 <line class="grid" x1="449.3" y1="250" x2="449.3" y2="450"/>
-<text class="axis" x="449.3" y="470" text-anchor="middle">13</text>
+<text class="axis" x="449.3" y="470" text-anchor="middle">14</text>
 <line class="grid" x1="475.0" y1="250" x2="475.0" y2="450"/>
-<text class="axis" x="475.0" y="470" text-anchor="middle">14</text>
+<text class="axis" x="475.0" y="470" text-anchor="middle">15</text>
 <line class="grid" x1="500.7" y1="250" x2="500.7" y2="450"/>
-<text class="axis" x="500.7" y="470" text-anchor="middle">15</text>
+<text class="axis" x="500.7" y="470" text-anchor="middle">16</text>
 <line class="grid" x1="526.3" y1="250" x2="526.3" y2="450"/>
-<text class="axis" x="526.3" y="470" text-anchor="middle">16</text>
+<text class="axis" x="526.3" y="470" text-anchor="middle">17</text>
 <line class="grid" x1="552.0" y1="250" x2="552.0" y2="450"/>
-<text class="axis" x="552.0" y="470" text-anchor="middle">17</text>
+<text class="axis" x="552.0" y="470" text-anchor="middle">18</text>
 <line class="grid" x1="577.7" y1="250" x2="577.7" y2="450"/>
-<text class="axis" x="577.7" y="470" text-anchor="middle">18</text>
+<text class="axis" x="577.7" y="470" text-anchor="middle">19</text>
 <line class="grid" x1="603.3" y1="250" x2="603.3" y2="450"/>
-<text class="axis" x="603.3" y="470" text-anchor="middle">19</text>
+<text class="axis" x="603.3" y="470" text-anchor="middle">20</text>
 <line class="grid" x1="629.0" y1="250" x2="629.0" y2="450"/>
-<text class="axis" x="629.0" y="470" text-anchor="middle">20</text>
+<text class="axis" x="629.0" y="470" text-anchor="middle">21</text>
 <line class="grid" x1="654.7" y1="250" x2="654.7" y2="450"/>
-<text class="axis" x="654.7" y="470" text-anchor="middle">21</text>
+<text class="axis" x="654.7" y="470" text-anchor="middle">22</text>
 <line class="grid" x1="680.3" y1="250" x2="680.3" y2="450"/>
-<text class="axis" x="680.3" y="470" text-anchor="middle">22</text>
+<text class="axis" x="680.3" y="470" text-anchor="middle">23</text>
 <line class="grid" x1="706.0" y1="250" x2="706.0" y2="450"/>
-<text class="axis" x="706.0" y="470" text-anchor="middle">23</text>
+<text class="axis" x="706.0" y="470" text-anchor="middle">24</text>
 <line class="grid" x1="731.7" y1="250" x2="731.7" y2="450"/>
-<text class="axis" x="731.7" y="470" text-anchor="middle">24</text>
+<text class="axis" x="731.7" y="470" text-anchor="middle">25</text>
 <line class="grid" x1="757.3" y1="250" x2="757.3" y2="450"/>
-<text class="axis" x="757.3" y="470" text-anchor="middle">25</text>
+<text class="axis" x="757.3" y="470" text-anchor="middle">26</text>
 <line class="grid" x1="783.0" y1="250" x2="783.0" y2="450"/>
-<text class="axis" x="783.0" y="470" text-anchor="middle">26</text>
+<text class="axis" x="783.0" y="470" text-anchor="middle">27</text>
 <line class="grid" x1="808.7" y1="250" x2="808.7" y2="450"/>
-<text class="axis" x="808.7" y="470" text-anchor="middle">27</text>
+<text class="axis" x="808.7" y="470" text-anchor="middle">28</text>
 <line class="grid" x1="834.3" y1="250" x2="834.3" y2="450"/>
-<text class="axis" x="834.3" y="470" text-anchor="middle">28</text>
+<text class="axis" x="834.3" y="470" text-anchor="middle">29</text>
 <line class="grid" x1="860.0" y1="250" x2="860.0" y2="450"/>
-<text class="axis" x="860.0" y="470" text-anchor="middle">29</text>
+<text class="axis" x="860.0" y="470" text-anchor="middle">30</text>
 <text class="axis" x="475.0" y="502" text-anchor="middle" font-size="11">Days</text>
 <text class="axis" transform="translate(32 350.0) rotate(-90)" text-anchor="middle" font-size="11">Contributions</text>
-<path class="fade" style="animation-delay:1s" d="M90.0,450.0 C94.3,450.0 107.1,450.0 115.7,450.0 C124.2,450.0 132.8,450.0 141.3,450.0 C149.9,450.0 158.4,450.0 167.0,450.0 C175.6,450.0 184.1,450.0 192.7,450.0 C201.2,450.0 209.8,450.0 218.3,450.0 C226.9,450.0 235.4,450.0 244.0,450.0 C252.6,450.0 261.1,450.0 269.7,450.0 C278.2,450.0 286.8,450.0 295.3,450.0 C303.9,450.0 312.4,450.0 321.0,450.0 C329.6,450.0 338.1,450.0 346.7,450.0 C355.2,439.2 363.8,407.5 372.3,385.0 C380.9,362.5 389.4,335.0 398.0,315.0 C406.6,295.0 415.1,265.0 423.7,265.0 C432.2,287.5 440.8,419.2 449.3,450.0 C457.9,450.0 466.4,450.0 475.0,450.0 C483.6,450.0 492.1,450.0 500.7,450.0 C509.2,450.0 517.8,450.0 526.3,450.0 C534.9,445.8 543.4,425.0 552.0,425.0 C560.6,425.0 569.1,445.8 577.7,450.0 C586.2,450.0 594.8,450.0 603.3,450.0 C611.9,450.0 620.4,450.0 629.0,450.0 C637.6,450.0 646.1,450.0 654.7,450.0 C663.2,450.0 671.8,450.0 680.3,450.0 C688.9,450.0 697.4,450.0 706.0,450.0 C714.6,450.0 723.1,450.0 731.7,450.0 C740.2,450.0 748.8,450.0 757.3,450.0 C765.9,450.0 774.4,450.0 783.0,450.0 C791.6,450.0 800.1,450.0 808.7,450.0 C817.2,439.2 825.8,385.0 834.3,385.0 C842.9,385.0 855.7,439.2 860.0,450.0 L860.0,450 L90.0,450 Z" fill="url(#area)"/>
-<path class="line" d="M90.0,450.0 C94.3,450.0 107.1,450.0 115.7,450.0 C124.2,450.0 132.8,450.0 141.3,450.0 C149.9,450.0 158.4,450.0 167.0,450.0 C175.6,450.0 184.1,450.0 192.7,450.0 C201.2,450.0 209.8,450.0 218.3,450.0 C226.9,450.0 235.4,450.0 244.0,450.0 C252.6,450.0 261.1,450.0 269.7,450.0 C278.2,450.0 286.8,450.0 295.3,450.0 C303.9,450.0 312.4,450.0 321.0,450.0 C329.6,450.0 338.1,450.0 346.7,450.0 C355.2,439.2 363.8,407.5 372.3,385.0 C380.9,362.5 389.4,335.0 398.0,315.0 C406.6,295.0 415.1,265.0 423.7,265.0 C432.2,287.5 440.8,419.2 449.3,450.0 C457.9,450.0 466.4,450.0 475.0,450.0 C483.6,450.0 492.1,450.0 500.7,450.0 C509.2,450.0 517.8,450.0 526.3,450.0 C534.9,445.8 543.4,425.0 552.0,425.0 C560.6,425.0 569.1,445.8 577.7,450.0 C586.2,450.0 594.8,450.0 603.3,450.0 C611.9,450.0 620.4,450.0 629.0,450.0 C637.6,450.0 646.1,450.0 654.7,450.0 C663.2,450.0 671.8,450.0 680.3,450.0 C688.9,450.0 697.4,450.0 706.0,450.0 C714.6,450.0 723.1,450.0 731.7,450.0 C740.2,450.0 748.8,450.0 757.3,450.0 C765.9,450.0 774.4,450.0 783.0,450.0 C791.6,450.0 800.1,450.0 808.7,450.0 C817.2,439.2 825.8,385.0 834.3,385.0 C842.9,385.0 855.7,439.2 860.0,450.0" fill="none" stroke="#1F6FEB" stroke-width="3.5" stroke-linecap="round" filter="url(#glow)"/>
-<circle class="fade" style="animation-delay:0.30s" cx="90.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-08-30</title></circle>
-<circle class="fade" style="animation-delay:0.37s" cx="115.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-08-31</title></circle>
-<circle class="fade" style="animation-delay:0.44s" cx="141.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-01</title></circle>
-<circle class="fade" style="animation-delay:0.51s" cx="167.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-02</title></circle>
-<circle class="fade" style="animation-delay:0.58s" cx="192.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-03</title></circle>
-<circle class="fade" style="animation-delay:0.65s" cx="218.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-04</title></circle>
-<circle class="fade" style="animation-delay:0.73s" cx="244.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-05</title></circle>
-<circle class="fade" style="animation-delay:0.80s" cx="269.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-06</title></circle>
-<circle class="fade" style="animation-delay:0.87s" cx="295.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-07</title></circle>
-<circle class="fade" style="animation-delay:0.94s" cx="321.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-08</title></circle>
-<circle class="fade" style="animation-delay:1.01s" cx="346.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-09</title></circle>
-<circle class="fade" style="animation-delay:1.08s" cx="372.3" cy="385.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>13 contributions on 2026-09-10</title></circle>
-<circle class="fade" style="animation-delay:1.15s" cx="398.0" cy="315.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>27 contributions on 2026-09-11</title></circle>
-<circle class="fade" style="animation-delay:1.22s" cx="423.7" cy="265.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>37 contributions on 2026-09-12</title></circle>
-<circle class="fade" style="animation-delay:1.29s" cx="449.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-13</title></circle>
-<circle class="fade" style="animation-delay:1.36s" cx="475.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-14</title></circle>
-<circle class="fade" style="animation-delay:1.44s" cx="500.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-15</title></circle>
-<circle class="fade" style="animation-delay:1.51s" cx="526.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-16</title></circle>
-<circle class="fade" style="animation-delay:1.58s" cx="552.0" cy="425.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>5 contributions on 2026-09-17</title></circle>
-<circle class="fade" style="animation-delay:1.65s" cx="577.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-18</title></circle>
-<circle class="fade" style="animation-delay:1.72s" cx="603.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-19</title></circle>
-<circle class="fade" style="animation-delay:1.79s" cx="629.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-20</title></circle>
-<circle class="fade" style="animation-delay:1.86s" cx="654.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-21</title></circle>
-<circle class="fade" style="animation-delay:1.93s" cx="680.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-22</title></circle>
-<circle class="fade" style="animation-delay:2.00s" cx="706.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-23</title></circle>
-<circle class="fade" style="animation-delay:2.07s" cx="731.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-24</title></circle>
-<circle class="fade" style="animation-delay:2.15s" cx="757.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-25</title></circle>
-<circle class="fade" style="animation-delay:2.22s" cx="783.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-26</title></circle>
-<circle class="fade" style="animation-delay:2.29s" cx="808.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-27</title></circle>
-<circle class="fade" style="animation-delay:2.36s" cx="834.3" cy="385.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>13 contributions on 2026-09-28</title></circle>
-<circle class="fade" style="animation-delay:2.43s" cx="860.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-29</title></circle>
+<path class="fade" style="animation-delay:1s" d="M90.0,450.0 C94.3,450.0 107.1,450.0 115.7,450.0 C124.2,450.0 132.8,450.0 141.3,450.0 C149.9,450.0 158.4,450.0 167.0,450.0 C175.6,450.0 184.1,450.0 192.7,450.0 C201.2,450.0 209.8,450.0 218.3,450.0 C226.9,450.0 235.4,450.0 244.0,450.0 C252.6,450.0 261.1,450.0 269.7,450.0 C278.2,450.0 286.8,450.0 295.3,450.0 C303.9,450.0 312.4,450.0 321.0,450.0 C329.6,439.2 338.1,407.5 346.7,385.0 C355.2,362.5 363.8,335.0 372.3,315.0 C380.9,295.0 389.4,265.0 398.0,265.0 C406.6,287.5 415.1,419.2 423.7,450.0 C432.2,450.0 440.8,450.0 449.3,450.0 C457.9,450.0 466.4,450.0 475.0,450.0 C483.6,450.0 492.1,450.0 500.7,450.0 C509.2,445.8 517.8,425.0 526.3,425.0 C534.9,425.0 543.4,445.8 552.0,450.0 C560.6,450.0 569.1,450.0 577.7,450.0 C586.2,450.0 594.8,450.0 603.3,450.0 C611.9,450.0 620.4,450.0 629.0,450.0 C637.6,450.0 646.1,450.0 654.7,450.0 C663.2,450.0 671.8,450.0 680.3,450.0 C688.9,450.0 697.4,450.0 706.0,450.0 C714.6,450.0 723.1,450.0 731.7,450.0 C740.2,450.0 748.8,450.0 757.3,450.0 C765.9,450.0 774.4,450.0 783.0,450.0 C791.6,439.2 800.1,385.0 808.7,385.0 C817.2,385.0 825.8,439.2 834.3,450.0 C842.9,450.0 855.7,450.0 860.0,450.0 L860.0,450 L90.0,450 Z" fill="url(#area)"/>
+<path class="line" d="M90.0,450.0 C94.3,450.0 107.1,450.0 115.7,450.0 C124.2,450.0 132.8,450.0 141.3,450.0 C149.9,450.0 158.4,450.0 167.0,450.0 C175.6,450.0 184.1,450.0 192.7,450.0 C201.2,450.0 209.8,450.0 218.3,450.0 C226.9,450.0 235.4,450.0 244.0,450.0 C252.6,450.0 261.1,450.0 269.7,450.0 C278.2,450.0 286.8,450.0 295.3,450.0 C303.9,450.0 312.4,450.0 321.0,450.0 C329.6,439.2 338.1,407.5 346.7,385.0 C355.2,362.5 363.8,335.0 372.3,315.0 C380.9,295.0 389.4,265.0 398.0,265.0 C406.6,287.5 415.1,419.2 423.7,450.0 C432.2,450.0 440.8,450.0 449.3,450.0 C457.9,450.0 466.4,450.0 475.0,450.0 C483.6,450.0 492.1,450.0 500.7,450.0 C509.2,445.8 517.8,425.0 526.3,425.0 C534.9,425.0 543.4,445.8 552.0,450.0 C560.6,450.0 569.1,450.0 577.7,450.0 C586.2,450.0 594.8,450.0 603.3,450.0 C611.9,450.0 620.4,450.0 629.0,450.0 C637.6,450.0 646.1,450.0 654.7,450.0 C663.2,450.0 671.8,450.0 680.3,450.0 C688.9,450.0 697.4,450.0 706.0,450.0 C714.6,450.0 723.1,450.0 731.7,450.0 C740.2,450.0 748.8,450.0 757.3,450.0 C765.9,450.0 774.4,450.0 783.0,450.0 C791.6,439.2 800.1,385.0 808.7,385.0 C817.2,385.0 825.8,439.2 834.3,450.0 C842.9,450.0 855.7,450.0 860.0,450.0" fill="none" stroke="#1F6FEB" stroke-width="3.5" stroke-linecap="round" filter="url(#glow)"/>
+<circle class="fade" style="animation-delay:0.30s" cx="90.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-08-31</title></circle>
+<circle class="fade" style="animation-delay:0.37s" cx="115.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-01</title></circle>
+<circle class="fade" style="animation-delay:0.44s" cx="141.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-02</title></circle>
+<circle class="fade" style="animation-delay:0.51s" cx="167.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-03</title></circle>
+<circle class="fade" style="animation-delay:0.58s" cx="192.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-04</title></circle>
+<circle class="fade" style="animation-delay:0.65s" cx="218.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-05</title></circle>
+<circle class="fade" style="animation-delay:0.73s" cx="244.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-06</title></circle>
+<circle class="fade" style="animation-delay:0.80s" cx="269.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-07</title></circle>
+<circle class="fade" style="animation-delay:0.87s" cx="295.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-08</title></circle>
+<circle class="fade" style="animation-delay:0.94s" cx="321.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-09</title></circle>
+<circle class="fade" style="animation-delay:1.01s" cx="346.7" cy="385.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>13 contributions on 2026-09-10</title></circle>
+<circle class="fade" style="animation-delay:1.08s" cx="372.3" cy="315.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>27 contributions on 2026-09-11</title></circle>
+<circle class="fade" style="animation-delay:1.15s" cx="398.0" cy="265.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>37 contributions on 2026-09-12</title></circle>
+<circle class="fade" style="animation-delay:1.22s" cx="423.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-13</title></circle>
+<circle class="fade" style="animation-delay:1.29s" cx="449.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-14</title></circle>
+<circle class="fade" style="animation-delay:1.36s" cx="475.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-15</title></circle>
+<circle class="fade" style="animation-delay:1.44s" cx="500.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-16</title></circle>
+<circle class="fade" style="animation-delay:1.51s" cx="526.3" cy="425.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>5 contributions on 2026-09-17</title></circle>
+<circle class="fade" style="animation-delay:1.58s" cx="552.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-18</title></circle>
+<circle class="fade" style="animation-delay:1.65s" cx="577.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-19</title></circle>
+<circle class="fade" style="animation-delay:1.72s" cx="603.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-20</title></circle>
+<circle class="fade" style="animation-delay:1.79s" cx="629.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-21</title></circle>
+<circle class="fade" style="animation-delay:1.86s" cx="654.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-22</title></circle>
+<circle class="fade" style="animation-delay:1.93s" cx="680.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-23</title></circle>
+<circle class="fade" style="animation-delay:2.00s" cx="706.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-24</title></circle>
+<circle class="fade" style="animation-delay:2.07s" cx="731.7" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-25</title></circle>
+<circle class="fade" style="animation-delay:2.15s" cx="757.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-26</title></circle>
+<circle class="fade" style="animation-delay:2.22s" cx="783.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-27</title></circle>
+<circle class="fade" style="animation-delay:2.29s" cx="808.7" cy="385.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>13 contributions on 2026-09-28</title></circle>
+<circle class="fade" style="animation-delay:2.36s" cx="834.3" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-29</title></circle>
+<circle class="fade" style="animation-delay:2.43s" cx="860.0" cy="450.0" r="5" fill="#58A6FF" stroke="#1F6FEB" stroke-width="2"><title>0 contributions on 2026-09-30</title></circle>
 </g>
 </svg>
