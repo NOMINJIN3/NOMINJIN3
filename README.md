@@ -50,7 +50,7 @@
 ---
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=NOMINJIN3&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS"/>
+<img src="https://komarev.com/ghpvc/?username=NOMINJIN3&style=for-the-badge&color=1f6feb&label=PROFILE+VIEWS&abbreviated=false" alt="Profile views"/>
 
 <br/><br/>
 
