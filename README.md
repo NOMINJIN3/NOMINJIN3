@@ -46,6 +46,13 @@
 <img src="./contribution-graph.svg" width="860" alt="Nomi's contribution graph — last 31 days, auto-refreshed daily" />
 <br>
 <br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NOMINJIN3/NOMINJIN3/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NOMINJIN3/NOMINJIN3/output/github-snake.svg" />
+  <img alt="Nomi's contribution snake" width="860" src="https://raw.githubusercontent.com/NOMINJIN3/NOMINJIN3/output/github-snake-dark.svg" />
+</picture>
+<br>
+<br>
 
 ---
 <div align="center">
