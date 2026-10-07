@@ -1,6 +1,6 @@
 {
  "username": "NOMINJIN3",
- "total": 819,
+ "total": 823,
  "weeks": [
   [
    {
@@ -2306,6 +2306,12 @@
    {
     "date": "2026-10-06",
     "weekday": 2,
+    "count": 4,
+    "level": 1
+   },
+   {
+    "date": "2026-10-07",
+    "weekday": 3,
     "count": 0,
     "level": 0
    }
