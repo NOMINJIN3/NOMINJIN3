@@ -2320,6 +2320,12 @@
     "weekday": 4,
     "count": 1,
     "level": 1
+   },
+   {
+    "date": "2026-10-09",
+    "weekday": 5,
+    "count": 0,
+    "level": 0
    }
   ]
  ]
