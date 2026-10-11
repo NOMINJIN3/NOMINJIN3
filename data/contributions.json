@@ -1,51 +1,7 @@
 {
  "username": "NOMINJIN3",
- "total": 832,
+ "total": 837,
  "weeks": [
-  [
-   {
-    "date": "2025-10-05",
-    "weekday": 0,
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-10-06",
-    "weekday": 1,
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-10-07",
-    "weekday": 2,
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-10-08",
-    "weekday": 3,
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-10-09",
-    "weekday": 4,
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-10-10",
-    "weekday": 5,
-    "count": 0,
-    "level": 0
-   },
-   {
-    "date": "2025-10-11",
-    "weekday": 6,
-    "count": 0,
-    "level": 0
-   }
-  ],
   [
    {
     "date": "2025-10-12",
@@ -2332,6 +2288,14 @@
     "weekday": 6,
     "count": 0,
     "level": 0
+   }
+  ],
+  [
+   {
+    "date": "2026-10-11",
+    "weekday": 0,
+    "count": 5,
+    "level": 1
    }
   ]
  ]
