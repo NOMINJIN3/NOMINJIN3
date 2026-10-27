@@ -10,13 +10,6 @@
 <br>
 <br>
 <br>
-<h3><code>nominjin@github ~ $ whoami</code></h3>
-<table>
-<td valign="top"><img src="./whoami-card(1).svg" width="800" alt="Nominjin — Info card" /></td>
-</table>
-<br>
-<br>
-<br>
 
 <h3><code>nominjin@github ~ $ ./links.sh</code></h3>
 <p><b>Information Technology · Agentic Tools Developer · Cyber Security</b></p>
