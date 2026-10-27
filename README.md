@@ -5,6 +5,11 @@
 ---
 <br>
 <br>
+<h3><code>nominjin@github ~ $ ./status.sh</code></h3>
+<img src="./profile.svg" width="860" alt="Nominjin's ASCII portrait and GitHub status — auto-refreshed daily" />
+<br>
+<br>
+<br>
 <h3><code>nominjin@github ~ $ whoami</code></h3>
 <table>
 <td valign="top"><img src="./whoami-card(1).svg" width="800" alt="Nominjin — Info card" /></td>
