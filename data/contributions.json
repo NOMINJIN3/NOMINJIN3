@@ -2326,6 +2326,12 @@
     "weekday": 5,
     "count": 12,
     "level": 1
+   },
+   {
+    "date": "2026-11-14",
+    "weekday": 6,
+    "count": 0,
+    "level": 0
    }
   ]
  ]
